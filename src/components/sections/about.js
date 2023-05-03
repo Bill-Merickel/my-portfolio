@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Flutter + Dart', 'Python', 'Unity + C#', 'Java', 'Firebase', 'C'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I'm a rising senior at the {' '}
+              <a href="https://www.gatech.edu/">Georgia Institute of Technology</a> studying Computer Science with
+              a double concentration in Intelligence and Systems Architecture. My
+              interest in mobile app development traces all the way back to early high school when I developed a mobile
+              app to help my school staff communicate with parents. Since then, I've expanded on my mobile app development
+              skills while also diving into an array of other topics within the development world.
+            </p>
+            <p>
+              Throughout my time in college, I've had the pleasure of interning as a software engineer at {' '}
+              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a> and{' '}
+              <a href="https://www.ncr.com/">the world's largest global POS software provider</a>, and I will be interning again this summer at{' '}
+              <a href="https://www.att.com/">a telecommunications company</a>, all of which I have gained valuable
+              backend knowledge.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Aside from my work experience, I have also worked on an array of projects spanning across a variety
+              of topics. Check them out below!
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve gained experience in:</p>
           </div>
 
           <ul className="skills-list">

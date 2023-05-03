@@ -55,13 +55,14 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">Want to connect?</h2>
 
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I am actively looking for an opportunity as a Software Engineer Full-Time after I graduate from Georgia Tech
+        with a B.S. in Computer Science in May 2024. I will work in a variety of SWE roles, from Backend to Game Development.
+        I look forward to connecting with you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
