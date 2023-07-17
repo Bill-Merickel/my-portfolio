@@ -60,13 +60,13 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am actively looking for an opportunity as a Software Engineer Full-Time after I graduate from Georgia Tech
-        with a B.S. in Computer Science in May 2024. I will work in a variety of SWE roles, from Backend to Game Development.
+        I am actively looking for an opportunity as a full-time software engineer after I graduate in May 2024. 
+        I will work in a variety of SWE roles, from front-end to back-end and everything in between.
         I look forward to connecting with you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Email Me
       </a>
     </StyledContactSection>
   );

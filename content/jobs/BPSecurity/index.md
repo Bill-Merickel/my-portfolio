@@ -4,7 +4,7 @@ title: 'Software Engineer/Sales & Marketing Intern'
 company: 'BPSecurity'
 location: 'Riverside, CA'
 range: 'June - August 2021'
-url: 'https://web.northeastern.edu/scout/'
+url: 'https://www.bpsecurity.net/'
 ---
 
 - Composed a 15-page company documentation detailing security benefits of application containers as opposed to virtual machines
