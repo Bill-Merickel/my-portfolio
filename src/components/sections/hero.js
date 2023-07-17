@@ -61,12 +61,14 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Bill Merickel.</h2>;
-  const three = <h3 className="big-heading">I build games and mobile apps.</h3>;
+  const three = <h3 className="big-heading">I build games and apps for web and mobile.</h3>;
   const four = (
     <>
       <p>
-        I’m an aspiring software engineer interested in building neat applications across a variety of platforms. 
-        Currently, I’m focused on building my skills as a game developer and widening my exposure to mobile app development.
+        I’m an aspiring computer science student interested in building neat applications across a variety of platforms. 
+        I am set to graduate from Georgia Tech in May 2024 and am interested in full-time software engineering positions
+        that will allow me to utilize my skills as a programmer and widen my exposure to the possibilities of technology development.
+        Check out my work below!
       </p>
     </>
   );

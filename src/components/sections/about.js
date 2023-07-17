@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Flutter + Dart', 'Python', 'Unity + C#', 'Java', 'Firebase', 'C'];
+  const skills = ['React + Node.js', 'Python', 'Flutter + Dart', 'Java', 'Unity + C#', 'C'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,18 +136,18 @@ const About = () => {
           <div>
             <p>
               I'm a rising senior at the {' '}
-              <a href="https://www.gatech.edu/">Georgia Institute of Technology</a> studying Computer Science with
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> studying Computer Science with
               a double concentration in Intelligence and Systems Architecture. My
-              interest in mobile app development traces all the way back to early high school when I developed a mobile
-              app to help my school staff communicate with parents. Since then, I've expanded on my mobile app development
-              skills while also diving into an array of other topics within the development world.
+              interest in app development traces all the way back to early high school when I developed a mobile
+              app to help my school staff communicate with parents. That experience solidified my interest in programming
+              and I decided to pursue an education in Computer Science.
             </p>
             <p>
               Throughout my time in college, I've had the pleasure of interning as a software engineer at {' '}
-              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a> and{' '}
-              <a href="https://www.ncr.com/">the world's largest global POS software provider</a>, and I will be interning again this summer at{' '}
-              <a href="https://www.att.com/">a telecommunications company</a>, all of which I have gained valuable
-              backend knowledge.
+              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>, {' '}
+              <a href="https://www.ncr.com/">a global retail POS software provider</a>, and most recently at{' '}
+              <a href="https://www.att.com/">the world's leading telecommunications company</a>, all from which I have gained valuable
+              front-end and back-end experience.
             </p>
 
             <p>
