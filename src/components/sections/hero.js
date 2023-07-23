@@ -72,13 +72,21 @@ const Hero = () => {
       </p>
     </>
   );
+  function handleScroll() {
+    window.scroll({
+      top: window.innerHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
   const five = (
     <a
+      type="button"
+      onClick={handleScroll}
       className="email-link"
-      href="https://www.linkedin.com/in/bill-merickel/"
       target="_blank"
       rel="noreferrer">
-      Connect with me on LinkedIn!
+      Learn more about me!
     </a>
   );
 
