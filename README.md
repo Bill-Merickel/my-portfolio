@@ -8,7 +8,8 @@
   The first and current iteration of <a href="https://billmerickel.com/" target="_blank">billmerickel.com</a> built with React and hosted by <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.
 </p>
 
-<img width="1725" alt="Screenshot 2023-07-23 at 10 25 02 PM" src="https://github.com/Bill-Merickel/my-portfolio/assets/20192754/ba8f5965-e435-433f-88df-4a24d4c45705">
+<img width="1706" alt="Screenshot 2023-07-23 at 10 25 02 PM" src="https://github.com/Bill-Merickel/my-portfolio/assets/20192754/381ddc7d-cf75-4c74-87e6-bdec360069ef">
+
 
 ## Attribution
 
