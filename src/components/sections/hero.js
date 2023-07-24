@@ -81,6 +81,8 @@ const Hero = () => {
   }
   const five = (
     <a
+      onMouseEnter={() => document.body.style.cursor = 'pointer'}
+      onMouseLeave={() => document.body.style.cursor = 'auto'}
       type="button"
       onClick={handleScroll}
       className="email-link"
