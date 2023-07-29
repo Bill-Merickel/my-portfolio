@@ -7,5 +7,8 @@ range: 'June - August 2023'
 url: 'https://www.att.com/'
 ---
 
-- Assigned to the Machine Learning Infrastructure Team
-- More updates to come soon!
+- Developed 8 API endpoints for the ORCA construction task management infrastructure that connect with the ORCA SQL system server to return appropriate objects supporting a variety of new features
+- Reviewed the ORCA regional backend codebase and developed unit tests, resulting in a 14% increase in total test coverage
+- Analyzed the ORCA regional frontend Angular codebase and deconstructed a 3000-line component into smaller, isolated components to improve code reusability, security, and readability
+- Conceived an improved scheduling algorithm for the ORCA construction task scheduling software, eliminating a bug allowing workers to double-count working time on tasks
+- Participated in the Intern Innovation Challenge by building a front-end Flutter Windows app emulating an AI-enhanced customer service support training tool
