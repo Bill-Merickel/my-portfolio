@@ -37,7 +37,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
+    max-width: 1000px;
   }
 
   .email-link {
@@ -61,15 +61,57 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Bill Merickel.</h2>;
-  const three = <h3 className="big-heading">I build games and apps for web and mobile.</h3>;
+  const three = <h2>I am driven by a fascination for advancing human-machine interactions and solving complex real-world challenges.</h2>;
+  const skills = ['React + Node.js', 'Python', 'Flutter + Dart', 'Java', 'Unity + C#', 'C'];
+  const StyledText = styled.div`
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      font-family: var(--font-mono);
+      font-size: var(--fz-xs);
+
+      &:before {
+        content: '▹';
+        position: absolute;
+        left: 0;
+        color: var(--green);
+        font-size: var(--fz-sm);
+        line-height: 12px;
+      }
+    }
+  }
+`;
   const four = (
     <>
-      <p>
-        I’m an aspiring computer science student interested in building neat applications across a variety of platforms. 
-        I am set to graduate from Georgia Tech in May 2024 and am interested in full-time software engineering positions
-        that will allow me to utilize my skills as a programmer and widen my exposure to the possibilities of technology development.
-        Check out my work below!
-      </p>
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>
+            As a software engineer, I want to pioneer groundbreaking AI technologies that transform industries and improve lives. I am also eager to design and optimize scalable, efficient, and reliable applications by grasping the foundations of computing and its various systems.
+            </p>
+            <p>
+            I am set to graduate with a computer science degree from {' '}
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024. With a strong academic background, diverse software engineering internships, and a passion for developing innovative solutions, I am seeking a full-time position to leverage my expertise in intelligence and systems architecture and contribute to cutting-edge projects.
+            </p>
+            <p>
+            I have built games and apps for web and mobile. I have also gained valuable front-end and back-end experience interning as a software engineer at {' '}
+              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>, {' '}
+              <a href="https://www.ncr.com/">a global retail POS software provider</a>, and {' '}
+              <a href="https://www.att.com/">the world's leading telecommunications company</a>. 
+            </p>
+          </div>
+        </StyledText>
+      </div>
     </>
   );
   function handleScroll() {

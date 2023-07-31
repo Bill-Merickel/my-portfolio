@@ -61,8 +61,8 @@ const Contact = () => {
 
       <p>
         I am actively looking for an opportunity as a full-time software engineer after I graduate in May 2024. 
-        I will work in a variety of SWE roles, from front-end to back-end and everything in between.
-        I look forward to connecting with you!
+        I will work in a variety of software engineering roles, from front-end to back-end and everything in between.
+        I look forward to connecting with you and exploring potential opportunities where my skills and enthusiasm align with your organization's vision!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
