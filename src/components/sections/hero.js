@@ -100,8 +100,9 @@ const Hero = () => {
             As a software engineer, I want to pioneer groundbreaking AI technologies that transform industries and improve lives. I am also eager to design and optimize scalable, efficient, and reliable applications by grasping the foundations of computing and its various systems.
             </p>
             <p>
-            I am set to graduate with a computer science degree from the {' '}
-              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024. With a strong academic background, diverse software engineering internships, and a passion for developing innovative solutions, I am seeking a full-time position to leverage my expertise in intelligence and systems architecture and contribute to cutting-edge projects.
+            I graduated with a Bachelor of Science in Computer Science from the {' '}
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024, and I will begin working as a software engineer at {' '}
+              <a href="https://www.att.com/">AT&T</a> in July 2024. With a strong academic background, diverse software engineering internships, and a passion for developing innovative solutions, I am seeking to leverage my expertise in intelligence and systems architecture and contribute to cutting-edge projects.
             </p>
             <p>
             I have built games and apps for web and mobile. I have also gained valuable front-end and back-end experience interning as a software engineer at {' '}
