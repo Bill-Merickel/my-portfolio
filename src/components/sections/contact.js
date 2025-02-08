@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am interested in working in a variety of software engineering roles, from front-end to back-end and everything in between. I am also interested in leveraging my skills in AI and spatial computing to build the products of the future.
+        I am interested in working primarily in iOS app development, but I am capable of taking on a variety of software engineering roles. I am also interested in leveraging my skills in AI and spatial computing to build the products of the future.
         I look forward to connecting with you and exploring potential opportunities where my skills and enthusiasm align with your organization's vision!
       </p>
 
