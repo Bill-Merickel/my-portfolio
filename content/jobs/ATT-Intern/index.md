@@ -1,7 +1,7 @@
 ---
 date: '2023-06-05'
 title: 'Software Engineer Intern'
-company: 'AT&T'
+company: 'AT&T (Intern)'
 location: 'Atlanta, GA'
 range: 'June - August 2023'
 url: 'https://www.att.com/'
