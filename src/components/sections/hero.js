@@ -61,7 +61,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Bill Merickel.</h2>;
-  const three = <h2>I am driven by a fascination for advancing human-machine interactions and solving complex real-world challenges.</h2>;
+  const three = <h2>I am an iOS developer driven by a fascination for advancing human-machine interactions and solving complex real-world challenges.</h2>;
   const skills = ['React + Node.js', 'Python', 'Flutter + Dart', 'Java', 'Unity + C#', 'C'];
   const StyledText = styled.div`
   ul.skills-list {
@@ -97,12 +97,12 @@ const Hero = () => {
         <StyledText>
           <div>
             <p>
-            As a software engineer, I want to pioneer groundbreaking AI technologies that transform industries and improve lives. I am also eager to design and optimize scalable, efficient, and reliable applications by grasping the foundations of computing and its various systems.
+            As a software engineer, I aim to be at the forefront of building technologies that transform industries and improve lives. I am also eager to design and optimize scalable, efficient, and reliable applications by grasping the foundations of computing and its various systems. By focusing on iOS development, I am able to build technologies that reach a multitude of audiences and provide meaningful experiences for them.
             </p>
             <p>
             I graduated with a Bachelor of Science in Computer Science from the {' '}
-              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024, and I will begin working as a software engineer at {' '}
-              <a href="https://www.att.com/">AT&T</a> in July 2024. With a strong academic background, diverse software engineering internships, and a passion for developing innovative solutions, I am seeking to leverage my expertise in intelligence and systems architecture and contribute to cutting-edge projects.
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024, and I have been working as an iOS software engineer at {' '}
+              <a href="https://www.att.com/">AT&T</a> since July 2024. With a strong academic background, diverse software engineering experiences, and a passion for developing innovative solutions, I am seeking to leverage my expertise in app development, intelligence, and systems architecture and contribute to cutting-edge projects.
             </p>
             <p>
             I have built games and apps for web and mobile. I have also gained valuable front-end and back-end experience interning as a software engineer at {' '}
