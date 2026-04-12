@@ -135,19 +135,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a rising senior at the {' '}
-              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> studying Computer Science with
-              a double concentration in Intelligence and Systems Architecture. My
-              interest in app development traces all the way back to early high school when I developed a mobile
-              app to help my school staff communicate with parents. That experience solidified my interest in programming
-              and I decided to pursue an education in Computer Science.
+              I earned my Bachelor of Science in Computer Science from the {' '}
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024, with concentrations in Intelligence and Systems Architecture. My
+              interest in app development goes back to high school, when I built a mobile app to help school staff communicate with parents. That project set me on a path toward a career in software engineering.
             </p>
             <p>
-              Throughout my time in college, I've had the pleasure of interning as a software engineer at {' '}
+              I interned as a software engineer at {' '}
               <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>, {' '}
-              <a href="https://www.ncr.com/">a global retail POS software provider</a>, and most recently at{' '}
-              <a href="https://www.att.com/">the world's leading telecommunications company</a>, all from which I have gained valuable
-              front-end and back-end experience.
+              <a href="https://www.ncr.com/">a global retail POS software provider</a>, and {' '}
+              <a href="https://www.att.com/">AT&T</a>, where I gained strong front-end and back-end experience. After graduating, I joined AT&T full time on the Atlas iOS team before moving to {' '}
+              <a href="https://www.cnn.com/">CNN</a>, where I work on performance, CI/CD, release automation, and quality for the flagship iOS app.
             </p>
 
             <p>

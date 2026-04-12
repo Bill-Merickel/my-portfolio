@@ -59,9 +59,15 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Hi, I'm</h1>;
   const two = <h2 className="big-heading">Bill Merickel.</h2>;
-  const three = <h2>I am an iOS developer driven by a fascination for advancing human-machine interactions and solving complex real-world challenges.</h2>;
+  const three = (
+    <h2>
+      I build native iOS apps with Swift and SwiftUI—from AT&amp;T&apos;s Atlas technician app in the field to CNN in millions of
+      pockets worldwide. I prioritize efforts towards improving performance, modernization with current Apple frameworks, accessibility,
+      and the quality work that keeps a large app maintainable.
+    </h2>
+  );
   const skills = ['React + Node.js', 'Python', 'Flutter + Dart', 'Java', 'Unity + C#', 'C'];
   const StyledText = styled.div`
   ul.skills-list {
@@ -97,18 +103,23 @@ const Hero = () => {
         <StyledText>
           <div>
             <p>
-            As a software engineer, I aim to be at the forefront of building technologies that transform industries and improve lives. I am also eager to design and optimize scalable, efficient, and reliable applications by grasping the foundations of computing and its various systems. By focusing on iOS development, I am able to build technologies that reach a multitude of audiences and provide meaningful experiences for them.
+              I like taking a problem from rough idea to something users can tap on—then I&apos;ll stick around for the follow-through:
+              performance metrics, crash monitoring, code review, and the refactors that make the next feature easier. That mix of
+              product-facing UI and underlying engineering is what pulled me into iOS, and the elegance of Apple&apos;s engineering
+              ecosystem is still what I enjoy the most in my developer career.
             </p>
             <p>
-            I graduated with a Bachelor of Science in Computer Science from the {' '}
-              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024, and I have been working as an iOS software engineer at {' '}
-              <a href="https://www.att.com/">AT&T</a> since July 2024. With a strong academic background, diverse software engineering experiences, and a passion for developing innovative solutions, I am seeking to leverage my expertise in app development, intelligence, and systems architecture and contribute to cutting-edge projects.
+              I graduated with a Bachelor of Science in Computer Science from the{' '}
+              <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024. I worked as an iOS software engineer at{' '}
+              <a href="https://www.att.com/">AT&amp;T</a> from July 2024 through December 2025, and I now build the{' '}
+              <a href="https://www.cnn.com/">CNN</a> iOS app with a focus on performance optimization. With a strong academic background,
+              diverse software engineering experience, and a passion for shipping reliable, high-performance apps, I specialize in iOS
+              development, intelligence, and systems architecture.
             </p>
             <p>
             I have built games and apps for web and mobile. I have also gained valuable front-end and back-end experience interning as a software engineer at {' '}
-              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>, {' '}
-              <a href="https://www.ncr.com/">a global retail POS software provider</a>, and {' '}
-              <a href="https://www.att.com/">the world's leading telecommunications company</a>. 
+              <a href="https://www.ncr.com/">a global retail POS software provider</a> and {' '}
+              <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>.
             </p>
           </div>
         </StyledText>

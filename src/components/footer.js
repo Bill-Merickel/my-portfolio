@@ -44,10 +44,12 @@ const StyledCredit = styled.div`
   color: var(--light-slate);
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
-  line-height: 1;
+  line-height: 1.45;
 
-  a {
-    padding: 10px;
+  /* Global .inline-link uses ::after with bottom: 0.37em, which pulls the line up into
+     the text when line-height is tight (e.g. descenders on “y”). Sit the rule under the copy. */
+  .inline-link::after {
+    bottom: -0.16em;
   }
 
   .github-stats {
@@ -104,23 +106,27 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1">
-        <a href="https://brittanychiang.com/">
-          <div>This portfolio was designed &amp; built by Brittany Chiang and modified by me.</div>
+      <StyledCredit tabIndex={-1}>
+        <div>
+          This portfolio was designed &amp; built by{' '}
+          <a href="https://brittanychiang.com/" className="inline-link">
+            Brittany Chiang
+          </a>{' '}
+          and modified by me.
+        </div>
 
-          {/* {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )} */}
-        </a>
+        {/* {githubInfo.stars && githubInfo.forks && (
+          <div className="github-stats">
+            <span>
+              <Icon name="Star" />
+              <span>{githubInfo.stars.toLocaleString()}</span>
+            </span>
+            <span>
+              <Icon name="Fork" />
+              <span>{githubInfo.forks.toLocaleString()}</span>
+            </span>
+          </div>
+        )} */}
       </StyledCredit>
     </StyledFooter>
   );

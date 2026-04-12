@@ -1,11 +1,15 @@
 ---
-date: '2024-07-15'
-title: 'iOS Senior Specialist Engineer, Lead Technical Interviewer'
+date: '2025-12-01'
+title: 'iOS Software Engineer, Lead Technical Interviewer'
 company: 'AT&T'
 location: 'Atlanta, GA'
-range: 'July 2024 - Present'
+range: 'June 2023 - December 2025'
 url: 'https://www.att.com/'
 ---
+
+#### iOS Software Engineer, Lead Technical Interviewer
+
+July 2024 - December 2025
 
 - Contributed to Atlas, a native iOS app used by 11,000+ field technicians nationwide to install, troubleshoot, and repair services for AT&T's broadband, VoIP, and UVerse customers
 - Architected and implemented a new dispatch fee for buried service wire, generating $12M in annual fee revenue
@@ -20,3 +24,13 @@ url: 'https://www.att.com/'
 - Implemented pre-existing damage claim entry at job closure, thereby eliminating duplicate claims and reducing administrative overhead
 - Optimized hardware diagnostics and troubleshooting times by enabling concurrent execution of multiple hardware standalone tests
 - Conducted 1-3 engineering interviews weekly, assessing candidates on data structures, algorithms, and object-oriented design
+
+#### Software Engineer Intern
+
+June - August 2023
+
+- Developed 8 API endpoints for the ORCA construction task management infrastructure that connect with the ORCA SQL system server to return appropriate objects supporting a variety of new features
+- Reviewed the ORCA regional backend codebase and developed unit tests, resulting in a 14% increase in total test coverage
+- Received an honorary placement in the Intern Innovation Challenge by building a front-end Flutter Windows app emulating an AI-enhanced customer service training tool and presented the app to the CTO and 2 Senior VPs
+- Analyzed the ORCA regional frontend Angular codebase and deconstructed a 3000-line component into smaller, isolated components to improve code reusability, security, and readability
+- Conceived an improved scheduling algorithm for the ORCA construction task scheduling software, eliminating a bug allowing workers to double-count working time on tasks
