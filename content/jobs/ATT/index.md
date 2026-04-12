@@ -1,6 +1,6 @@
 ---
 date: '2025-12-01'
-title: 'iOS Software Engineer, Lead Technical Interviewer'
+title: 'Multiple Software Engineer Roles'
 company: 'AT&T'
 location: 'Atlanta, GA'
 range: 'June 2023 - December 2025'
