@@ -1,19 +1,21 @@
 ---
 date: '2026-01-01'
-title: 'iOS Software Engineer II'
+title: 'iOS Software Engineer II, Technical Interviewer'
 company: 'CNN'
 location: 'Atlanta, GA'
 range: 'January 2026 - Present'
 url: 'https://www.cnn.com/'
 ---
 
-- Improved app build time by ~30% by configuring Xcode 26 compilation caching and implementing build-path optimizations
-- Reduced app startup time by ~23% by parallelizing user, subscription, and SDK initialization and sequencing flows
-- Automated the release workflow through version bumps after release cuts, GitHub Actions configurations, and phased App Store rollouts
-- Added Firebase Performance instrumentation for the Watch tab, articles, and push deep links; documented startup metrics and release management
-- Shipped iOS PR code coverage, binary-size gates against the develop branch, and updated Bitrise CI/CD, onboarding, and README documentation
-- Removed unused Amazon Ads SDK, non-native scripts and leftover artifacts, and dead code to modernize the native codebase
-- Fixed critical Firebase Crashlytics issues, including GDPR privacy text on app resume and offline/airplane-mode refresh and cold-launch stability
-- Replaced Node-based secret loading and Jira build notes with bash/curl on CI to trim toolchain dependencies
-- Served as iOS release manager for App Store releases (26.7.x), managing phased rollout, listings, and regression handoff
-- Enabled local Bitrise workflows to run the same unit-test step as CI with secrets configured before PRs can be opened
+- Improved the CNN iOS app build time by ~30% through Xcode compilation caching and build-path optimizations
+- Reduced app startup time by ~23% by parallelizing SDK initialization and sequencing user and subscription flows
+- Optimized CNN for iPhone Duo by adopting size-class-based adaptive layouts and resolving UX issues across orientations
+- Drove iOS 27 readiness by upgrading local and CI toolchains to Xcode 27/27.1 and adopting UIKit’s scene-based lifecycle
+- Implemented server-driven A/B testing with persistent user bucketing, header handling, and experiment attribution
+- Added Firebase Performance instrumentation for Watch, articles, and video playback to measure critical user journeys
+- Established router-driven SwiftUI navigation using NavigationStack, environment-based routing, and modal presentation
+- Hardened CI quality gates with deterministic code-coverage enforcement, app-size regression checks, and app-thinning reports
+- Automated release versioning and branch synchronization while eliminating up to 30 minutes of obsolete dSYM polling
+- Served as iOS release manager for five App Store releases, coordinating regression handoff, submissions, and phased rollouts
+- Consolidated localization into a single String Catalog and adopted locale-aware date formatting across various app areas
+- Resolved production-critical failures affecting widgets, notification processing, privacy screens, and application lifecycle behavior

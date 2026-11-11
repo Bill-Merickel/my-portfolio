@@ -112,7 +112,8 @@ const Hero = () => {
               I graduated with a Bachelor of Science in Computer Science from the{' '}
               <a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> in May 2024. I worked as an iOS software engineer at{' '}
               <a href="https://www.att.com/">AT&amp;T</a> from July 2024 through December 2025, and I now build the{' '}
-              <a href="https://www.cnn.com/">CNN</a> iOS app with a focus on performance optimization. With a strong academic background,
+              <a href="https://www.cnn.com/">CNN</a> iOS app, where I improve build and startup performance, optimize adaptive layouts,
+              modernize SwiftUI navigation, and strengthen A/B testing, observability, CI/CD, and App Store releases. With a strong academic background,
               diverse software engineering experience, and a passion for shipping reliable, high-performance apps, I specialize in iOS
               development, intelligence, and systems architecture.
             </p>

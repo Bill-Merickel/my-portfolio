@@ -144,7 +144,8 @@ const About = () => {
               <a href="https://www.bpsecurity.net/">a cybersecurity consulting agency</a>, {' '}
               <a href="https://www.ncr.com/">a global retail POS software provider</a>, and {' '}
               <a href="https://www.att.com/">AT&T</a>, where I gained strong front-end and back-end experience. After graduating, I joined AT&T full time on the Atlas iOS team before moving to {' '}
-              <a href="https://www.cnn.com/">CNN</a>, where I work on performance, CI/CD, release automation, and quality for the flagship iOS app.
+              <a href="https://www.cnn.com/">CNN</a>, where I work on performance, adaptive layouts, SwiftUI navigation, A/B testing,
+              observability, CI/CD, and App Store releases for the flagship iOS app, and serve as a technical interviewer.
             </p>
 
             <p>
